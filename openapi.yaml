@@ -1,0 +1,55 @@
+openapi: 3.0.3
+info:
+  title: NordBanking API
+  description: API for å opprette og håndtere digitale betalinger i Norden. API for 
+  version: 1.0.0
+servers:
+  - url: https://sandbox.api.nordicpay.io/v1
+    description: Sandbox-miljø
+paths:
+  /payments:
+    post:
+      summary: Opprett en ny betaling
+      description: Initiere en ny betalingstransaksjon for en kunde.
+      operationId: createPayment
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - amount
+                - currency
+                - recipient_id
+              properties:
+                amount:
+                  type: integer
+                  example: 25000
+                  description: Beløp i minste valutaenhet (f.eks. øre/cents. 25000 = 250.00 NOK).
+                currency:
+                  type: string
+                  example: NOK
+                  enum: [NOK, SEK, DKK, EUR]
+                recipient_id:
+                  type: string
+                  example: "rec_987654321"
+      responses:
+        '201':
+          description: Betaling opprettet med hell.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: string
+                    example: "pay_123456789"
+                  status:
+                    type: string
+                    example: "pending"
+                  created_at:
+                    type: string
+                    example: "2026-08-24T16:00:00Z"
+        '400':
+          description: Ugyldig forespørsel (manglende felt eller feil valuta).
