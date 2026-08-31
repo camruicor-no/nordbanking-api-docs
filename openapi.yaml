@@ -29,7 +29,7 @@ paths:
                   description: Amount in the smallest payment unit (e.g. øre/cents. 25000 = 250.00 NOK).
                 currency:
                   type: string
-                  example: NOK
+                  example: SEK
                   enum: [NOK, SEK, DKK, EUR]
                 recipient_id:
                   type: string
