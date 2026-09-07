@@ -9,9 +9,9 @@
 
 * [Registering to NordBanking ID](payments/registering-to-nordbanking-id.md)
 
-## Financing
+## Security
 
-* [Loan Servicing & Origination](financing/loan-servicing-and-origination.md)
+* [Fraud & Risk Mitigation Controls](security/fraud-and-risk-mitigation-controls.md)
 
 ## Additional Information
 
