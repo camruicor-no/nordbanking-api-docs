@@ -8,4 +8,11 @@
 ## payments
 
 * [Registering to NordBanking ID](payments/registering-to-nordbanking-id.md)
-* [Financial Institutions Elligible for NordBanking ID™](payments/financial-institutions-elligible-for-nordbanking-id-tm.md)
+
+## Financing
+
+* [Loan Servicing & Origination](financing/loan-servicing-and-origination.md)
+
+## Additional Information
+
+* [Financial Institutions Elligible for NordBanking ID™](additional-information/financial-institutions-elligible-for-nordbanking-id-tm.md)
