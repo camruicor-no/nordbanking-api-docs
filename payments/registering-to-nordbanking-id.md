@@ -66,6 +66,22 @@ Depending on the selected Country and ID Type, you must enter your ID Number in 
 * It must be 15-25 characters long.
 * It must not contain spaces, punctuation marks, or special characters (#, &, %, @, etc.).
 
-6. **Click Verify**. The system will check whether your proposed ID is available. If it is not available (that is, someone else already has it), **modify** it and **click Verify** as many times as needed to get an available ID. Once you have an available ID, click **Confirm**.
-7.
+6. **Click Verify**. The system will check whether your proposed ID is available. If it is not available (that is, someone else already has it), **modify** it and **click Verify** as many times as needed to get an available ID. Once you have an available ID, **click Confirm**.
 
+{% columns %}
+{% column %}
+<figure><img src="../.gitbook/assets/image.png" alt="Image: Unsuccessful attempt"><figcaption></figcaption></figure>
+{% endcolumn %}
+
+{% column %}
+<figure><img src="../.gitbook/assets/image (1).png" alt="Image: Successful attempt"><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
+
+7. You will receive a request confirmation email. NordBanking and your financial institution will review your request and let you know when you can start using your NordBanking ID.&#x20;
+
+{% hint style="info" %}
+Note:
+
+The review process may take between 3 and 5 business days.
+{% endhint %}
